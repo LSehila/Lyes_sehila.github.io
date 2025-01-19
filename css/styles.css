@@ -1,0 +1,125 @@
+/* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+header {
+    padding: 100px 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    padding: 20px 0;
+}
+
+
+/* Custom CSS pour les titres */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif; /* Utilisation de la police Poppins */
+    font-weight: 600; /* Épaisseur de la police */
+    color: #2c3e50; /* Couleur foncée pour les titres */
+}
+
+h1 {
+    font-size: 3rem; /* Taille du h1 */
+    font-weight: 700; /* Titre principal en gras */
+    margin-bottom: 1rem; /* Espacement en bas */
+    text-transform: uppercase; /* Texte en majuscules */
+    letter-spacing: 2px; /* Espacement entre les lettres */
+}
+
+h2 {
+    font-size: 2.5rem; /* Taille du h2 */
+    margin-bottom: 1.5rem; /* Espacement en bas */
+    position: relative; /* Pour l'effet de soulignement */
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 60px; /* Longueur de la ligne */
+    height: 4px; /* Épaisseur de la ligne */
+    background-color: #007bff; /* Couleur de la ligne */
+    margin: 10px auto 0; /* Centrer la ligne */
+}
+
+h3 {
+    font-size: 2rem; /* Taille du h3 */
+    margin-bottom: 1rem; /* Espacement en bas */
+    color: #007bff; /* Couleur bleue pour les sous-titres */
+}
+
+h4 {
+    font-size: 1.75rem; /* Taille du h4 */
+    margin-bottom: 0.75rem; /* Espacement en bas */
+}
+
+h5 {
+    font-size: 1.5rem; /* Taille du h5 */
+    margin-bottom: 0.5rem; /* Espacement en bas */
+}
+
+h6 {
+    font-size: 1.25rem; /* Taille du h6 */
+    margin-bottom: 0.5rem; /* Espacement en bas */
+}
+
+
+/* Justifier le texte */
+.justify-text {
+    text-align: justify; /* Justifie le texte */
+    text-justify: inter-word; /* Améliore l'espacement entre les mots */
+}
+
+
+/* Custom CSS pour les cartes de projets */
+.card {
+    transition: transform 0.3s ease; /* Animation au survol */
+    border: 1px solid #e0e0e0; /* Bordure légère */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Agrandir la carte au survol */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+}
+
+.card-body {
+    padding: 1.5rem; /* Espacement interne */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Taille du titre */
+    margin-bottom: 1rem; /* Espacement en bas */
+}
+
+.card-text {
+    font-size: 1.1rem; /* Taille du texte */
+    color: #555; /* Couleur du texte légèrement grisée */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Couleur bleue pour le bouton */
+    border: none; /* Supprimer la bordure */
+    padding: 0.5rem 1rem; /* Espacement interne */
+    font-size: 1rem; /* Taille du texte */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Couleur au survol */
+}
